@@ -22,7 +22,7 @@ def predict_datapoint():
             education_num = float(request.form.get('education_num')),
             capital_gain = float(request.form.get('capital_gain')),
             hours_per_week = float(request.form.get('hours_per_week')),
-            workclass = request.form.get('workclass'),
+            workclass = requestformget('workclass'),
             education= request.form.get('education'),
             marital_status = request.form.get('marital_status'),
             occupation = request.form.get('occupation'),
