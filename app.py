@@ -14,7 +14,7 @@ def home_page():
 @app.route('/predict',methods=['GET','POST'])
 
 def predict_datapoint():
-    if request.method=='GET':
+    if requestmethod=='GET':
         return render_template('form.html')
     else:
         data = CustomData(
